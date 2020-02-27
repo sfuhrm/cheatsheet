@@ -37,3 +37,20 @@
   `git merge $BRANCHNAME`
 * Cherry-picking a single commit into the current branch<br/>
   `git cherry-pick $COMMITHASH`
+
+#### Configuration
+
+* Setting the user name for commits<br/>
+  `git config --global user.name "John Doe"`
+* Setting the email address for commits<br/>
+  `git config --global user.email johndoe@example.com`
+* Setting the text editor for editing commits<br/>
+  `git config --global core.editor emacs`
+* Store the repository credentials for 15 minutes ([more](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage))<br/>
+  `git config --global credential.helper cache`
+* Store the repository credentials as plaintext, forever ([more](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage))<br/>
+  `git config --global credential.helper 'store --file ~/.git-credentials'`
+* Force GPG signature on tags (good a lot for Maven release!) ([more](https://git-scm.com/docs/git-config/2.9.3#git-config-tagforceSignAnnotated))<br/>
+  `git config --global tag.forceSignAnnotated true`
+* Enable colors in Git output<br/>
+  `git config --global color.ui auto`
