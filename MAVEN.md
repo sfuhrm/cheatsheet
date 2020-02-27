@@ -15,6 +15,8 @@
   `mvn release:clean`
   `mvn release:rollback`
 #### POM maintenance
+* Clean up / tidy the POM
+  `mvn tidy:pom`
 * Set project and submodule version
   `mvn versions:set -DnewVersion=1.0.3-SNAPSHOT`
 * Show dependency updates
