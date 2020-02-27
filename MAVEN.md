@@ -18,9 +18,9 @@
 * Deploying an artifact<br/>
   `mvn deploy`
 * Releasing an artifact<br/>
-  `mvn release:prepare`
-  `mvn release:perform`
-  `mvn release:clean`
+  `mvn release:prepare`<br/>
+  `mvn release:perform`<br/>
+  `mvn release:clean`<br/>
   `mvn release:rollback`
 
 #### File maintenance
