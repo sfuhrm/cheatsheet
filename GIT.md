@@ -50,7 +50,7 @@
   `git config --global credential.helper cache`
 * Store the repository credentials as plaintext, forever ([more](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage))<br/>
   `git config --global credential.helper 'store --file ~/.git-credentials'`
-* Force GPG signature on tags (good a lot for Maven release!) ([more](https://git-scm.com/docs/git-config/2.9.3#git-config-tagforceSignAnnotated))<br/>
+* Force GPG signature on tags (will work with Maven release to have signed releases in Github!) ([more](https://git-scm.com/docs/git-config/2.9.3#git-config-tagforceSignAnnotated))<br/>
   `git config --global tag.forceSignAnnotated true`
 * Enable colors in Git output<br/>
   `git config --global color.ui auto`
