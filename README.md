@@ -8,6 +8,7 @@ in Markdown format.
 ## Cheat Sheets
 
 * [Apache Maven](MAVEN.md)
+* [Git Version Control System](GIT.md)
 
 ## License
 
