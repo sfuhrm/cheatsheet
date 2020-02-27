@@ -8,6 +8,10 @@
 * Skipping the tests<br/>
   `mvn install -DskipTests`
   
+#### Code Quality
+* Generating the PMD report ([more](https://maven.apache.org/plugins/maven-pmd-plugin/))<br/>
+  `mvn pmd:pmd`
+  
 #### Deploying
 * Deploying an artifact<br/>
   `mvn deploy`
