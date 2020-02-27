@@ -16,7 +16,11 @@
   `mvn release:perform`
   `mvn release:clean`
   `mvn release:rollback`
-  
+
+#### File maintenance
+* Set license header to all files ([more](http://www.mojohaus.org/license-maven-plugin/update-file-header-mojo.html))<br/>
+  `mvn -Dproject.inceptionYear=2020 -Dlicense.licenseName=apache_v2 license:update-file-header`
+
 #### POM maintenance
 * Clean up / tidy the POM ([more](https://www.mojohaus.org/tidy-maven-plugin/))<br/>
   `mvn tidy:pom`
