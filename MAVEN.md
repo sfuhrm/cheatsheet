@@ -28,6 +28,8 @@
   `mvn -Dproject.inceptionYear=2020 -Dlicense.licenseName=apache_v2 license:update-file-header`
 
 #### POM maintenance
+* XML indent all POMs with 2 spaces<br/>
+  `for POM in $(find -name pom.xml); do echo $POM; (xmlstarlet fo < $POM > x && mv x $POM); done`
 * Clean up / tidy the POM ([more](https://www.mojohaus.org/tidy-maven-plugin/))<br/>
   `mvn tidy:pom`
 * Set project and submodule version ([more](https://www.mojohaus.org/versions-maven-plugin/examples/set.html))<br/>
