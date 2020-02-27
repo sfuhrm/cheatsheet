@@ -11,7 +11,7 @@
 #### Code Quality
 * Generating the PMD report ([more](https://maven.apache.org/plugins/maven-pmd-plugin/))<br/>
   `mvn pmd:pmd`
-* Generating the FindBugs report ([more](https://gleclaire.github.io/findbugs-maven-plugin/usage.html)<br/>
+* Generating the FindBugs report ([more](https://gleclaire.github.io/findbugs-maven-plugin/usage.html))<br/>
   `mvn findbugs:findbugs`
   
 #### Deploying
