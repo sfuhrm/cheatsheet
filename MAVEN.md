@@ -1,5 +1,9 @@
 ### Apache Maven Cheat Sheet
 #### Building
+* Building a package
+  `mvn clean package`
+* Installing into local repository
+  `mvn install`
 * Skipping the tests
   `mvn install -DskipTests`
 #### Deploying
