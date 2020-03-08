@@ -20,8 +20,10 @@
 * Releasing an artifact<br/>
   `mvn release:prepare`<br/>
   `mvn release:perform`<br/>
-  `mvn release:clean`<br/>
+* Rolling back a released artifact<br/>
   `mvn release:rollback`
+* Cleaning up release data<br/>
+  `mvn release:clean`<br/>
 
 #### File maintenance
 * Set license header to all files ([more](http://www.mojohaus.org/license-maven-plugin/update-file-header-mojo.html))<br/>
