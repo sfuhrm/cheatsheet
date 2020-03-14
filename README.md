@@ -2,8 +2,7 @@ Notes
 ===================
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A collection of notes and stylesheets
-in Markdown format.
+A collection of notes and cheat sheets in Markdown format.
 
 ## Cheat Sheets
 
