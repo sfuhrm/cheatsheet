@@ -36,6 +36,10 @@
   `mvn tidy:pom`
 * Set project and submodule version ([more](https://www.mojohaus.org/versions-maven-plugin/examples/set.html))<br/>
   `mvn versions:set -DnewVersion=1.0.3-SNAPSHOT`
+* Show dependency tree<br/>
+  `mvn dependency:tree`
+* Analyse unused / undeclared dependencies<br/>
+  `mvn dependency:analyze`
 * Show dependency updates ([more](https://www.mojohaus.org/versions-maven-plugin/display-dependency-updates-mojo.html))<br/>
   `mvn versions:display-dependency-updates`
 * Show plugin updates ([more](https://www.mojohaus.org/versions-maven-plugin/examples/display-plugin-updates.html))<br/>
