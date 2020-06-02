@@ -24,6 +24,8 @@
   `mvn release:rollback`
 * Cleaning up release data<br/>
   `mvn release:clean`<br/>
+* Install JAR without POM as artifact to Maven cache<br>
+  `mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging> -DgeneratePom=true`
 
 #### File maintenance
 * Set license header to all files ([more](http://www.mojohaus.org/license-maven-plugin/update-file-header-mojo.html))<br/>
