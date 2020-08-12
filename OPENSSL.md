@@ -3,6 +3,12 @@
 #### Displaying information
 * Showing the content of a PEM certificate<br/>
   `openssl x509 -in file.cert.pem -text`
+  
+* Showing the content of a CSR certificate signing request<br/>
+  `openssl req -in file.csr -text -noout`
+  
+* Showing the certificate of a running SSL server<br/>
+  `openssl s_client -showcerts -connect host.fqdn:8443 </dev/null`
 
 #### Calculating message digests
 * Calculating md5<br/>
