@@ -19,3 +19,7 @@
   `openssl sha256 FILE`
 * Calculating sha-3-256<br/>
   `openssl sha3-256 FILE`
+
+#### Misc
+* Generating a random password with 16 chars<br/>
+  `openssl rand -base64 16 |head -c16;echo`
