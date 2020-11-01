@@ -7,7 +7,7 @@
 #### Formatting and opening with disk label
 
 * Initialize a partition with a keyfile and a label<br/>
-  `cryptsetup luksFormat --key-file $HOME/rnd -c aes-cbc-essiv:sha256 --label MYLABEL -s 256 /dev/sdb1`
+  `cryptsetup luksFormat --key-file $HOME/rnd -c aes-cbc-essiv:sha256 --label MYLABEL --key-size 256 /dev/sdb1`
 * Opening a volume with a keyfile<br/>
   `cryptsetup luksOpen /dev/disk/by-label/MYLABEL MYLABEL --key-file $HOME/rnd`
 * Creating a file system (-m0 is the size reserved for superuser)<br/>
