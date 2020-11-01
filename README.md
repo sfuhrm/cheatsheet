@@ -8,6 +8,7 @@ A collection of cheat sheets in Markdown format.
 
 * [Apache Maven](MAVEN.md)
 * [Git Version Control System](GIT.md)
+* [LUKS Linux Unified Key Setup](LUKS.md)
 * [OpenSSL](OPENSSL.md)
 
 ## License
