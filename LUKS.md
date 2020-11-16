@@ -2,7 +2,7 @@
 
 #### Key management
 * Creating a 512 byte (=4096 bits) binary random key<br/>
-  `dd if=/dev/urandom of=$HOME/rnd count=512`
+  `dd if=/dev/urandom of=$HOME/rnd bs=1 count=512`
   
 * Creating a 32 byte (=256 bits) readable random key<br/>
   `openssl rand -base64 32 > $HOME/rnd`
