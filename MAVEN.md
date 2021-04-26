@@ -13,7 +13,7 @@
   `mvn pmd:pmd`
 * Generating the FindBugs report ([more](https://gleclaire.github.io/findbugs-maven-plugin/usage.html))<br/>
   `mvn findbugs:findbugs`
-  
+
 #### Deploying
 * Deploying an artifact<br/>
   `mvn deploy`
@@ -46,3 +46,5 @@
   `mvn versions:display-dependency-updates`
 * Show plugin updates ([more](https://www.mojohaus.org/versions-maven-plugin/examples/display-plugin-updates.html))<br/>
   `mvn versions:display-plugin-updates`
+* Show duplicate dependencies<br/>
+  `mvn org.basepom.maven:duplicate-finder-maven-plugin:1.4.0:check`
