@@ -38,6 +38,8 @@
   `mvn tidy:pom`
 * Set project and submodule version ([more](https://www.mojohaus.org/versions-maven-plugin/examples/set.html))<br/>
   `mvn versions:set -DnewVersion=1.0.3-SNAPSHOT`
+  
+#### Dependency management 
 * Show dependency tree<br/>
   `mvn dependency:tree`
 * Analyse unused / undeclared dependencies<br/>
@@ -48,3 +50,5 @@
   `mvn versions:display-plugin-updates`
 * Show duplicate dependencies<br/>
   `mvn org.basepom.maven:duplicate-finder-maven-plugin:1.4.0:check`
+* Find unused dependencies<br/>
+  `mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.2:analyze`
