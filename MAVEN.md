@@ -52,3 +52,6 @@
   `mvn org.basepom.maven:duplicate-finder-maven-plugin:1.4.0:check`
 * Find unused dependencies<br/>
   `mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.2:analyze`
+* Find dependencies with possible security problems ([more](https://github.com/jeremylong/DependencyCheck))<br/>
+  `mvn org.owasp:dependency-check-maven:check`
+
