@@ -54,4 +54,6 @@
   `mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.2:analyze`
 * Find dependencies with possible security problems ([more](https://github.com/jeremylong/DependencyCheck))<br/>
   `mvn org.owasp:dependency-check-maven:check`
+* Check GPG signatures of dependencies ([more](https://www.simplify4u.org/pgpverify-maven-plugin/check-mojo.html))<br/>
+  `mvn org.simplify4u.plugins:pgpverify-maven-plugin:check`
 
