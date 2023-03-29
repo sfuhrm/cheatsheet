@@ -49,7 +49,7 @@
 * Show plugin updates ([more](https://www.mojohaus.org/versions-maven-plugin/examples/display-plugin-updates.html))<br/>
   `mvn versions:display-plugin-updates`
 * Show duplicate dependencies<br/>
-  `mvn org.basepom.maven:duplicate-finder-maven-plugin:1.4.0:check`
+  `mvn org.basepom.maven:duplicate-finder-maven-plugin:1.5.1:check`
 * Find unused dependencies<br/>
   `mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.2:analyze`
 * Find dependencies with possible security problems ([more](https://github.com/jeremylong/DependencyCheck))<br/>
