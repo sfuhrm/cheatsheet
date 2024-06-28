@@ -37,9 +37,9 @@
 * Attach to a running container, interactive session<br/>
   `docker exec -ti $CONTAINER /bin/bash`
 * Copy files from container filesystem to host filesystem<br/>
-  `docker cp $CONTAINER:$SRC_PATH $DEST_PATH
+  `docker cp $CONTAINER:$SRC_PATH $DEST_PATH`
 * Copy files from host filesystem to container filesystem<br/>
-  `docker cp $SRC_PATH $CONTAINER:$DEST_PATH
+  `docker cp $SRC_PATH $CONTAINER:$DEST_PATH`
 
 #### Image maintenance
 
