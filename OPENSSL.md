@@ -10,6 +10,12 @@
 * Showing the certificate of a running SSL server<br/>
   `openssl s_client -showcerts -connect host.fqdn:8443 </dev/null`
 
+#### Certificate signing requests
+* Create a CSR with 4096 bits and a config file in UTF8 encoding<br/>
+  `openssl req -utf8 -newkey rsa:4096 -keyout private_key.key -out csr_file.csr -config csr.cnf`
+* View CSR file<br/>
+  `openssl req -text -noout -verify -in csr_file.csr `
+
 #### Calculating message digests
 * Calculating md5<br/>
   `openssl md5 FILE`
