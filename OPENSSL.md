@@ -7,7 +7,7 @@
 * Showing the content of a CSR certificate signing request<br/>
   `openssl req -in file.csr -text -noout`
 
-* Unpack a P12 PKCS#12 certificate bundle:
+* Unpack a P12 PKCS#12 certificate bundle:<br/>
   `openssl pkcs12 -in file.p12 -info`
   
 * Showing the certificate of a running SSL server<br/>
